@@ -14,6 +14,8 @@ import splash
 import OpenGL
 import sys
 import os
+import cv2
+import matplotlib.pyplot as plt
 
 if "--debug-ogl" not in sys.argv:
     OpenGL.ERROR_CHECKING = False
